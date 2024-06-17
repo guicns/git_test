@@ -1,0 +1,79 @@
+Abrir o CLS = ctrl + alt + T
+
+$ ls
+ls = listing = list the contents of the current directory
+ls -F = mostra o tracing de cada diretório = pra onde vai de onde veio
+ls -a = show all
+
+$ pwd
+pwd = print working directory = printa o caminho que estou
+
+$ cd
+cd = change location
+cd - ou cd .. = volta um diretório
+cd ~ = home
+
+$ mkdir NOME
+mkdir = cria um diretório
+mkdir -p ../project/data ../project/results = cria vários diretórios
+
+$ nano
+nano = editor de texto
+
+$ touch NOMEARQUIVO.TXT
+touch = cria um arquivo
+
+$ rm NOMEARQUIVO.TXT
+rm = remove o arquivo
+
+$ mv
+mv = move
+mv -i = request to overwrite files
+
+$ cp
+cp = copia um file ao invés de mover
+
+$ wc
+wc = conta linhas, palavras, caracteres
+wc -l = número de linhas // -m -w
+
+$ cat
+cat = concatenate = prints the contents of files
+
+Operador >
+> = envia o conteúdo printado pra um novo arquivo
+
+Operador >>
+>> = não sobrescreve, apenas appenda um dado no arquivo
+
+$ sort
+sort = arranja os dados, mas não muda o arquivo, só printa
+sort -n = arranja de forma numérica
+
+$ head
+head = get the first few lines
+
+$ tail
+tail = head só que de baixo pra cima
+
+Pipe |
+| = use the output of the command on the left as the input to the command on the right
+
+$ cut
+cut = remove or ‘cut out’ certain sections of each line in the file
+-d , = , é o delimitador
+-f = delimitador de coluna
+
+$ uniq
+uniq = filters out adjacent matching lines in a file
+-c = count of the number of times a line occurs in its input
+
+Como abrir o VSCode
+$ code
+$ code my_awesome_project
+
+Updates
+https://www.novicedev.com/blog/how-update-linux-packages-command
+sudo apt update
+sudo apt upgrade
+sudo apt autoremove

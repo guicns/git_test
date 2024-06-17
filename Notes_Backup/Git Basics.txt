@@ -1,0 +1,18 @@
+1. Criar repositório
+- Tem uma pasta de repos na home (cd)
+- No site do github, só criar um repo clicando em + e check na readme file
+- Clica em code e pega a SSH
+
+2. Syncar com o git local
+- git clone "URL/SSH"
+- testar com git remote -v
+- git status pra ver quais files estão staged
+
+3. Staging
+- git add "file"
+- git status pra ver
+- git restore --staged <file> to unstage
+- git commit -m "Add file" >> Commit com comentário
+
+4. Push
+- git push origin main

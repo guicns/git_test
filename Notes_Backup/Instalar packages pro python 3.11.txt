@@ -1,0 +1,11 @@
+> Esse sistema tem duas versões do python
+> A versão do sistema é a python3 -> não usar
+> A versão do VS CODE é a python 3.11 -> instalar bibliotecas com o comando abaixo.
+
+python3.11 -m pip install my_package_name
+
+> Depois de instalar, rodar esses dois comandos pra ver se deu certo
+python3.11 -m pip list -> ver se caiu aqui e não no próximo
+python3 -m pip list
+
+## INSTALAR PACKEGE NO .VENV É SÓ RODAR COMANDO NO PRÓPRIO JUPYTER
